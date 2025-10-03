@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+header nav li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+header a:visited {
+    color: white;
+}
+
+header a:hover {
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+
+
+
+body main h2 {
+    margin: 20px 0;
+    color: #1ABC9C;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 2px #1ABC9C;
+}
+
+
+body main img {
+    padding-left: 45%;
+}
+
+body main {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+
+main table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+main table td {
+    text-align: left;
+    height: 40px;
+    padding-left: 10px;
+
+}
+
+table thead {
+    background-color: #2078cf;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#Sobre {
+    margin-bottom: 20px;
+}
+
+#Sobre img {
+    margin: 10px auto;
+    display: block;
+    width: 120px;
+    height: 120px;
+    border: 5px solid #1ABC9C;
+    border-radius: 50%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+footer {
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
